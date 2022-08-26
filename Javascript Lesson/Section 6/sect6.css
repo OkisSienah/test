@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+img {
+    width: auto;
+    height: auto;
+}
+
+img #tree {
+    
+}
+
+@media (max-width: 600px) {
+    #tree {
+        height: auto;
+        min-width: 10vw;
+        transition: .2s;
+    }
+}

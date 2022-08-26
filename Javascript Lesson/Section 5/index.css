@@ -1,0 +1,114 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    min-width: 400px;
+    min-height: 30vh;
+}
+
+input {
+    box-sizing: border-box;
+    width: 60vw;
+    background-color: turquoise;
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 3px;
+    outline: none;
+    border: 3px solid white;
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 2px;
+}
+
+input:focus {
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+}
+
+#input-btn {
+    width: 30vw;
+    outline: none;
+    font-size: 15px;
+    background-color: chartreuse;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#input-btn:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+#del-btn {
+    width: 30vw;
+    outline: none;
+    font-size: 15px;
+    background-color: rgb(228, 125, 125);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#del-btn:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+#save-tab-btn {
+    width: 30vw;
+    outline: none;
+    font-size: 15px;
+    background-color: rgb(108, 151, 185);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#save-tab-btn:hover {
+    background-color: rgb(26, 159, 221);
+    cursor: pointer;
+}
+
+#box {
+    display: block;
+    background-color: turquoise;
+    color: black;
+    width: 40vw;
+    height: 30vh;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+#box:hover {
+    cursor: pointer;
+}
+
+#list-input {
+    font-size: 15px;
+}
+
+#buy-button {
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
+
+#buy-button:hover {
+    background-color: rgb(63, 26, 197);
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(89, 0, 255);
+}

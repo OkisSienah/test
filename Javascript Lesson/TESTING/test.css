@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 5px;
+}
+
+#flip-btn {
+    background-color: aqua;
+    color:black;
+}
+
+#flip-btn:hover {
+    cursor: pointer;
+    background-color: blue;  
+    color: white; 
+}
+
+#quote-btn {
+    background-color: aqua;
+    color:black;
+}
+
+#quote-btn:hover {
+    cursor: pointer;
+    background-color: blue;  
+    color: white; 
+}
+
+#box1 {
+    background-color: rgb(199, 174, 174);
+}
+
+#input-message {
+    margin: auto;
+    display: flex;
+    outline: none;
+}
+
+#submit-btn {
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#last-message {
+    text-align: center;
+}
+
+#message {
+    text-align: center;
+    font-size: 18px;
+}
+
+#box2 {
+    background-color: cornflowerblue;
+    height: 5vh;
+    width: auto;
+}
+
+a {
+    color: white;
+    font-size: 30px;
+}

@@ -1,0 +1,74 @@
+
+
+h1 {
+    color: white;
+    text-align: center;   
+    font-size: 30; 
+    font-family: monospace;
+}
+
+h2 {
+    color: white;
+    text-align: center;    
+    font-size: 40; 
+    font-family: monospace;
+}
+
+#increment-btn {
+    background-color: red;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    margin: auto;
+    display: flex;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#increment-btn:hover {
+    background-color: lime;
+    color: black;
+}
+
+#decrement-btn {
+    background-color: red;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    margin: auto;
+    display: flex;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#decrement-btn:hover {
+    background-color: lime;
+    color: black;
+}
+
+#save-btn {
+    background-color: red;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    margin: auto;
+    display: flex;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#save-btn:hover {
+    background-color: lime;
+    color: black;
+}
+
+#save-el {
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
